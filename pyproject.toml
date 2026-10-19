@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdxalert"
+version = "0.1.0"
+description = "盘中预警推送引擎：可插拔数据源 + 基础规则集 + 微信推送，零依赖"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "mengyiheng" }]
+keywords = ["stock", "alert", "quant", "wechat", "monitor"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+
+[project.scripts]
+tdxalert = "tdxalert.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
