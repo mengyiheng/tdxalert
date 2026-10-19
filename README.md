@@ -89,3 +89,15 @@ for frame in my_snapshot_loop():   # 你的 REA / 采集器
 ## License
 
 MIT
+
+## 量化相关定制需求
+
+预警引擎恰恰是最值得按个人习惯定制的模块：
+
+| 方向 | 示例 |
+|---|---|
+| 📏 规则扩展 | 接入你的策略条件、多规则组合、板块/概念联动预警 |
+| 💬 渠道扩展 | Telegram/邮件/短信、按告警级别分流推送 |
+| 🔌 源适配 | 把你现有的采集器/行情源接成标准快照帧 |
+
+**联系合作**：[Gitee Issues](https://gitee.com/mengyiheng/tdxalert/issues) 或 [Gitee 私信](https://gitee.com/mengyiheng)。规则类需求请附：监控对象、触发条件、期望推送方式。
