@@ -1,5 +1,7 @@
 <p align="center"><img src="assets/cover.png" alt="tdxalert" width="720"/></p>
 
+<p align="center"><img src="assets/demo.gif" alt="tdxalert demo" width="640"/></p>
+
 # tdxalert — 盘中预警推送引擎
 
 把你的**全市场实时快照**接进来，按规则监控，触发即推送**微信**。
